@@ -1,0 +1,22 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: aquamarine;
+}
+
+.sedans {
+  background-color: coral;
+  flex-grow: 1;
+}
+
+.suvs {
+  background-color: yellowgreen;
+  flex-grow: 1;
+}
+
+.luxury {
+  background-color: steelblue;
+  flex-grow: 1;
+}
