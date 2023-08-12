@@ -24,7 +24,7 @@ body {
 
 .sedans {
   background-color: hsl(31, 77%, 52%);
-  width: 230px;
+  width: 150px;
   padding: 20px;
   text-align: justify;
   border-radius: 8px 8px 0px 0px; /*top-left, top-right, bottom-right, bottom-left*/
@@ -36,7 +36,7 @@ body {
 
 .suvs {
   background-color: hsl(184, 100%, 22%);
-  width: 230px;
+  width: 150px;
   padding: 20px;
   text-align: justify;
 }
@@ -47,7 +47,7 @@ body {
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
-  width: 230px;
+  width: 150px;
   padding: 20px;
   text-align: justify;
   border-radius: 0px 0px 8px 8px;
@@ -78,6 +78,7 @@ button {
 @media (min-width: 376px) {
   .main {
     height: 100vh;
+    /* max-width: 100%; */
   }
   .container {
     flex-direction: row;
@@ -91,3 +92,9 @@ button {
     border-radius: 0px 8px 8px 0px; /*top-left, top-right, bottom-right, bottom-left*/
   }
 }
+
+/* @media (min-width: 667px) {
+  .main {
+    background-color: white;
+  }
+} */
