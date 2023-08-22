@@ -1,13 +1,12 @@
 body {
   margin: 0px;
-  background-color: hsl(0, 40%, 50%);
+  background-color: hsl(0, 0%, 95%);
 }
 
 .main {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100dvh;
   background-color: hsl(0, 0%, 95%);
   padding-top: 20px;
   padding-bottom: 20px;
@@ -26,8 +25,9 @@ body {
 
 .sedans {
   background-color: hsl(31, 77%, 52%);
-  /* width: 150px; */
-  flex-basis: 100%;
+  width: 150px;
+  padding: 20px;
+  /* text-align: justify; */
   border-radius: 8px 8px 0px 0px; /*top-left, top-right, bottom-right, bottom-left*/
 }
 
@@ -37,8 +37,7 @@ body {
 
 .suvs {
   background-color: hsl(184, 100%, 22%);
-  /* width: 150px; */
-  flex-basis: 100%;
+  width: 150px;
   padding: 20px;
   /* text-align: justify; */
 }
@@ -49,8 +48,7 @@ body {
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
-  /* width: 150px; */
-  flex-basis: 100%;
+  width: 150px;
   padding: 20px;
   /* text-align: justify; */
   border-radius: 0px 0px 8px 8px;
@@ -71,22 +69,17 @@ p {
   font-size: 15px;
 }
 
-a {
+button {
   border-radius: 15px;
   padding: 10px 20px;
   border: none;
   font-family: "Lexend Deca", sans-serif;
   background-color: hsl(0, 0%, 95%);
-  text-decoration: none;
-}
-
-a:hover {
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
 }
 
 @media (min-width: 376px) {
   .main {
-    height: 100dvh;
+    height: 100vh;
     /* max-width: 100%; */
   }
   .container {
