@@ -3,59 +3,56 @@ body {
   background-color: hsl(0, 0%, 95%);
 }
 
-.main {
+main {
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: hsl(0, 0%, 95%);
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding: 1.4rem;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   font-family: "Lexend Deca", sans-serif;
-  font-size: 15px;
+  font-size: 0.8rem;
 }
 
 .container > div {
-  padding: 50px;
+  padding: 3.1rem;
 }
 
 .sedans {
   background-color: hsl(31, 77%, 52%);
-  width: 150px;
-  padding: 20px;
-  /* text-align: justify; */
+  width: 10rem;
   border-radius: 8px 8px 0px 0px; /*top-left, top-right, bottom-right, bottom-left*/
 }
 
 .button1 {
   color: hsl(31, 77%, 52%);
+  background-color: white;
 }
 
 .suvs {
   background-color: hsl(184, 100%, 22%);
-  width: 150px;
-  padding: 20px;
-  /* text-align: justify; */
+  width: 10rem;
 }
 
 .button2 {
   color: hsl(184, 100%, 22%);
+  background-color: white;
 }
 
 .luxury {
   background-color: hsl(179, 100%, 13%);
-  width: 150px;
-  padding: 20px;
-  /* text-align: justify; */
+  width: 10rem;
+  padding: 1.4rem;
   border-radius: 0px 0px 8px 8px;
 }
 
 .button3 {
   color: hsl(179, 100%, 13%);
+  background-color: white;
 }
 
 h2 {
@@ -66,21 +63,22 @@ h2 {
 
 p {
   color: hsla(0, 0%, 100%, 0.75);
-  font-size: 15px;
+  font-size: 1rem;
+  padding-bottom: 3.1rem;
 }
 
-button {
-  border-radius: 15px;
+a {
+  border-radius: 1rem;
   padding: 10px 20px;
   border: none;
   font-family: "Lexend Deca", sans-serif;
   background-color: hsl(0, 0%, 95%);
+  text-decoration: none;
 }
 
 @media (min-width: 376px) {
-  .main {
-    height: 100vh;
-    /* max-width: 100%; */
+  main {
+    height: 100dvh;
   }
   .container {
     flex-direction: row;
